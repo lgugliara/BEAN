@@ -6,6 +6,8 @@ Questa cartella contiene alcuni esempi di utilizzo e visualizzazione della *Bina
 
 ## ⚙️ Concetto base
 
+<img width="889" height="221" alt="demo_arithmetic" src="https://raw.githubusercontent.com/lgugliara/BEAN/refs/heads/main/demo_arithmetic.png" />
+
 In un sistema di rappresentazione binaria normalizzata, la media aritmetica tende a perdere informazione (collassa i bit discordanti).  
 La *Binary Mean* invece conserva la struttura di ogni valore, fondendo le configurazioni binarie dei due input secondo una regola di equilibrio locale sui bit più significativi (MSB).
 
@@ -57,6 +59,8 @@ in cui la *binary mean* viene usata per combinare vettori Q–K–V in uno spazi
 ---
 
 ## 📊 Output
+
+<img width="700" height="600" alt="cube_attention" src="https://raw.githubusercontent.com/lgugliara/BEAN/refs/heads/main/cube_attention.png" />
 
 - **`demo_arithmetic.png`** → mostra la *Binary Mean (central truncated)*: una colonna di coerenza a sinistra e una serie di scatti logaritmici verso destra, tipici della migrazione dei bit più significativi.  
 - **`cube_attention.png`** → rappresentazione 3D delle teste di attenzione binaria.  
